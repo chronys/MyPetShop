@@ -4,15 +4,13 @@
   </div>  
 </div>
 
-<div class="container">
-    <footer style="background-color: #a47055;" class="p-2">
+    <footer style="background-color: #a47055;" class="p-4">
         <div class="row text-center">
             <div class="col">
-                <p>&copy; PetShop - 2025 . Tous droits réservés. </p>
+                <p class="text-white">&copy; PetShop - 2025 . Tous droits réservés. </p>
             </div>
         </div>
     </footer>
-</div>
 
 </body>
 
