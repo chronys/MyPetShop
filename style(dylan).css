@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"); /* Police globale : Merriweather sans*/
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"); /* Police logo : Irish Grover */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* CSS PAGE CONTACT -> DÉBUT */
+.asterisque {
+  color: red;
+}
+
+/* pour les écrans xs, s et m */
+@media (max-width: 991px) {
+  #titre_contact {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px 0 25px 0;
+  }
+  form {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 1px rgb(211, 211, 211) solid;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    small {
+      margin: 25px 0 0 0;
+    }
+
+    label {
+      margin: 15px 0 0 0;
+    }
+
+    input {
+      margin: 5px 0 15px 0;
+      border: 1px rgb(211, 211, 211) solid;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    textarea {
+      border: 1px rgb(211, 211, 211) solid;
+      border-radius: 5px;
+      padding: 5px;
+      height: 150px;
+    }
+    #btn_formulaire {
+      background-color: #a47055;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 25px 0 25px 0;
+    }
+  }
+}
+
+/* pour les écrans lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #titre_contact {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px 0 25px 0;
+  }
+  form {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 1px rgb(211, 211, 211) solid;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    small {
+      margin: 25px 0 0 0;
+    }
+
+    label {
+      margin: 15px 0 0 0;
+    }
+
+    input {
+      margin: 5px 0 15px 0;
+      border: 1px rgb(211, 211, 211) solid;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    textarea {
+      border: 1px rgb(211, 211, 211) solid;
+      border-radius: 5px;
+      padding: 5px;
+      height: 150px;
+    }
+    #btn_formulaire {
+      background-color: #a47055;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 25px 0 25px 0;
+    }
+  }
+}
+
+/* pour les écrans xl */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  #titre_contact {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px 0 25px 0;
+  }
+  form {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 1px rgb(211, 211, 211) solid;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    small {
+      margin: 25px 0 0 0;
+    }
+
+    label {
+      margin: 15px 0 0 0;
+    }
+
+    input {
+      margin: 5px 0 15px 0;
+      border: 1px rgb(211, 211, 211) solid;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    textarea {
+      border: 1px rgb(211, 211, 211) solid;
+      border-radius: 5px;
+      padding: 5px;
+      height: 150px;
+    }
+    #btn_formulaire {
+      background-color: #a47055;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 25px 0 25px 0;
+    }
+  }
+}
+
+/* pour les écrans xxl */
+@media (min-width: 1400px) {
+  #titre_contact {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px 0 25px 0;
+  }
+  form {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 1px rgb(211, 211, 211) solid;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    small {
+      margin: 25px 0 0 0;
+    }
+
+    label {
+      margin: 15px 0 0 0;
+    }
+
+    input {
+      margin: 5px 0 15px 0;
+      border: 1px rgb(211, 211, 211) solid;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    textarea {
+      border: 1px rgb(211, 211, 211) solid;
+      border-radius: 5px;
+      padding: 5px;
+      height: 150px;
+    }
+    #btn_formulaire {
+      background-color: #a47055;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 25px 0 25px 0;
+    }
+  }
+}
+/* CSS PAGE CONTACT -> FIN */
+
+/* CSS PAGE QUI QOMMES-NOUS -> DÉBUT */
+/* pour les écrans xs, s et m */
+@media (max-width: 991px) {
+  #titre_qsn {
+    margin: 50px 0 50px 0;
+    text-align: center;
+  }
+  #titre_qsn2 {
+    margin: 50px 0 50px 0;
+    text-align: center;
+  }
+  .presentation{
+    text-align: center;
+  }
+  .sous-titre {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #355c7d;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+  }
+  .roles {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+  }
+  .div_qsn {
+    border-radius: 5px;
+    margin: 25px 0 25px 0;
+  }
+  .sous-div-roles {
+    border: 1px solid #355c7d;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .svg-espace {
+    margin: 0 10px 0 0;
+  }
+}
+/* pour les écrans lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .middle{
+    height: 80vh;
+  }
+  #titre_qsn {
+    margin: 50px 0 50px 0;
+    text-align: center;
+  }
+  #titre_qsn2 {
+    margin: 50px 0 50px 0;
+    text-align: center;
+  }
+  .presentation{
+    text-align: center;
+  }
+  .sous-titre {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #355c7d;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+  }
+  .roles {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+  }
+  .div_qsn {
+    border-radius: 5px;
+    margin: 25px 0 25px 0;
+    width: 45%;
+  }
+  .sous-div-roles {
+    border: 1px solid #355c7d;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .svg-espace {
+    margin: 0 10px 0 0;
+  }
+  #roles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+}
+/* pour les écrans xl */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .middle{
+    height: 80vh;
+  }
+  #titre_qsn {
+    margin: 50px 0 50px 0;
+    text-align: center;
+  }
+  #titre_qsn2 {
+    margin: 50px 0 50px 0;
+    text-align: center;
+  }
+  .presentation{
+    text-align: center;
+  }
+  .sous-titre {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #355c7d;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+  }
+  .roles {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+  }
+  .div_qsn {
+    border-radius: 5px;
+    margin: 25px 0 25px 0;
+    width: 45%;
+  }
+  .sous-div-roles {
+    border: 1px solid #355c7d;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .svg-espace {
+    margin: 0 10px 0 0;
+  }
+  #roles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+}
+/* pour les écrans xxl */
+@media (min-width: 1400px) {
+  .container{
+    width: 70% ;
+  }
+  .middle{
+    height: 80vh;
+  }
+  #titre_qsn {
+    margin: 50px 0 50px 0;
+    text-align: center;
+  }
+  #titre_qsn2 {
+    margin: 50px 0 50px 0;
+    text-align: center;
+  }
+  .presentation{
+    text-align: center;
+  }
+  .sous-titre {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #355c7d;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+  }
+  .roles {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+  }
+  .div_qsn {
+    border-radius: 5px;
+    margin: 25px 0 25px 0;
+    width: 45%;
+  }
+  .sous-div-roles {
+    border: 1px solid #355c7d;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .svg-espace {
+    margin: 0 10px 0 0;
+  }
+  #roles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+}
+/* CSS PAGE QUI QOMMES-NOUS -> FIN */
