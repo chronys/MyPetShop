@@ -1,3 +1,3 @@
 <?php require_once "header.inc.php"; ?>
-<?= "Tout est bon"; ?>
+<?= "<h1>Tout fonctionne ! </h1>"; ?>
 <?php require_once "footer.inc.php"; ?>
