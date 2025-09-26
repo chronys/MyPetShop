@@ -4,13 +4,14 @@
   </div>  
 </div>
 
-    <footer style="background-color: #a47055;" class="p-4">
+    <footer style="background-color: #385245" class="p-4">
         <div class="row text-center">
             <div class="col">
-                <p class="text-white">&copy; PetShop - 2025 . Tous droits réservés. </p>
+                <p class="text-white">&copy; Tout Pour Toutou - 2025 . Tous droits réservés. </p>
             </div>
         </div>
     </footer>
+
 
 </body>
 
