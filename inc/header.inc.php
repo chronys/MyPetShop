@@ -4,24 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
-        <link active text-white active text-white rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-      <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="../assets/img/ms-icon-310x310.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <!-- <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script> -->
-    <link active text-white active text-white rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
 <!-- Header -->
-<header style="background-color: #385245;">
+<header style="background-color: #385245;" >
   <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <!-- Logo -->
-    <a class="navbar-brand d-flex flex-row" href="index.php">        
-        <img src="../assets/img/logo.png" alt="" style="width:250px;">
-        <h1 style="font-size:50px;" class="text-white">Tout Pour Toutou</h1>
-        
-    </a>
+     <a href="#" class="navbar-brand d-flex">
+      <img src="../assets/img/logo2.png" alt="Logo Tout Pour Toutou" id="logo-img">
+     </a>
 
     <!-- Bouton burger -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +29,7 @@
     <!-- Liens -->
     <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup" >
       <div class="navbar-nav gap-3">
-        <a class="btn nav-link active text-white">Jouets</a>
+        <a class="btn nav-link active text-white" href="#">Jouets</a>
         <a class="btn nav-link active text-white" href="#">Nourriture</a>
         <a class="btn nav-link active text-white" href="#">Accessoires</a>
         <a class="btn nav-link active text-white" href="#">A propos</a>
@@ -56,7 +54,7 @@
 <!-- Contenu -->
 <div class="container">
   <div class="row">
-    <div class="col-12 p-5">
+    <div class="col-12 p-4">
 
 
 
