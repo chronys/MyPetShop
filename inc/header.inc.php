@@ -29,11 +29,11 @@
     <!-- Liens -->
     <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup" >
       <div class="navbar-nav gap-3">
-        <a class="btn nav-link active text-white" href="#">Jouets</a>
-        <a class="btn nav-link active text-white" href="#">Nourriture</a>
-        <a class="btn nav-link active text-white" href="#">Accessoires</a>
-        <a class="btn nav-link active text-white" href="#">A propos</a>
-        <a class="btn nav-link active text-white">Contact</a>
+        <a class="btn nav-link active text-white" href="../vue/jouets.php">Jouets</a>
+        <a class="btn nav-link active text-white" href="../vue/nourriture.php">Nourriture</a>
+        <a class="btn nav-link active text-white" href="../vue/accessoires.php">Accessoires</a>
+        <a class="btn nav-link active text-white" href="../vue/qui_sommes_nous.php">A propos</a>
+        <a class="btn nav-link active text-white" href="../vue/contact.php">Contact</a>
       </div>
     </div>
 

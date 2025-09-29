@@ -23,17 +23,22 @@
 
 /* Responsive header */
 
-@media screen {
+@media (min-width: 320px) and (max-width:768px) {
 
+#logo-img {
+  width: 150px;
+}
+
+.icon-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+@media(min-width : 768px) {
   #logo-img {
-    display: block;
-
+    width: 250px;
   }
-
-  #text-logo {
-    display: inline-block;
-    margin-right: 200px;
-  }
-
 }
 
