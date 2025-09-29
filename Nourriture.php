@@ -102,6 +102,87 @@
       outline: none;
       background-color: #6fb692ff;
     }
+
+    /* medias queries */
+      @media (min-width: 320px) and (max-width: 768px)  {
+        h1{
+            /* width: 400px; */
+            text-align: center;
+            padding-bottom: 25px;
+        }
+
+        .monh2 {
+            /* width: 400px; */
+            text-align: center;
+        }
+
+        .produit{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 500px;
+            height: 500px;
+            overflow: auto;
+        }
+
+      }
+
+      @media  (min-width: 768px)  {
+        h1{
+            /* width: 400px; */
+            text-align: center;
+            padding-bottom: 25px;
+        }
+
+        .monh2 {
+            /* width: 400px; */
+            text-align: center;
+        }
+
+        .produit{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 500px;
+            height: 500px;
+            overflow: auto;
+        }
+      }
+
+
+
+    /* Bintou */
+
+/* Header : logo */
+
+#logo-img {
+  width: 400px;
+}
+
+#navbarNavAltMarkup {
+  margin-right: 300px;
+}
+
+/* Responsive header */
+
+@media screen {
+
+  #logo-img {
+    display: block;
+
+  }
+
+  #text-logo {
+    display: inline-block;
+    margin-right: 200px;
+  }
+
+}
+
   </style>
 </head>
 
