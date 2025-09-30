@@ -1,3 +1,6 @@
+<?php if(!defined ('BASE_URL') || !defined('BASE_PATH')) {
+  require_once "init.inc.php"; }?>
+
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -7,7 +10,6 @@
     <link rel="shortcut icon" href="../assets/img/ms-icon-310x310.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script> -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Document</title>
 </head>

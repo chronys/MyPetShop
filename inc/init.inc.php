@@ -3,7 +3,7 @@
 <?php
 
 $pdo = new PDO (
-    'mysql:host=localhost;dbname=',
+    'mysql:host=localhost;dbname=petshop', // mettre le nom de la base de données ici
     'root',
     '',
     array(
@@ -14,6 +14,6 @@ $pdo = new PDO (
 
 session_start();
 
-
+require_once "fonctions.inc.php";
 
 ?>
